@@ -1,0 +1,3 @@
+public class NotFun {
+	System.out.println("This is really confusing");
+}

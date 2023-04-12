@@ -4,5 +4,18 @@ NowItsFun {
 	private String id;
 	private String Birthdate;
 	private int hoursWorked;
+	private String SuperRareInformation
+	
+	// Change Constructor Name to Updated Company name
+	public NowItsFun () {
+	
+	}
 
+	public String toString( String super_legal_info) {
+		return "Public Employee Information" + super_legal_info; // Good Job!
+	}
+
+	private void setNotADataCollector (String NotPublicIpAddress) {
+		SuperRareInformation = NotPublicIpAddress; // This is not important; Do not touch
+	}
 }
